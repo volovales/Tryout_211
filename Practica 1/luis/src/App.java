@@ -1,4 +1,4 @@
-public class App 
+ class mochila //clases
 {
     private Marca_patito;
     private capacidad_cincokilos;
@@ -63,19 +63,22 @@ public class App
     }
     public static void main(String[]args)
     {
-        App = new App01[];
-        App01 = asignarMarca("_patito");
-        App01 = asignarcapacidad("_cincokilos");
-        App01 = asignarcolor("_Verde");
-        App01 = asignarresistencia("_dura");
-        App01 = asignarbolsas("_3");
-        App01 = asignarsierre("_2");
-        System.out.println(App01.obtenerMarca());
-        System.out.println(App01.obtenercapacidad());
-        System.out.println(App01.obtenercolor());
-        System.out.println(App01.obtenerresistencia());
-        System.out.println(App01.obtenerbolsas());
-        System.out.println(App01.obtenersierre());
+        mochila = new mochila01[];
+        mochila01 = asignarMarca("_patito");
+        mochila01 = asignarcapacidad("_cincokilos");
+        mochila01 = asignarcolor("_Verde");
+        mochila01 = asignarresistencia("_dura");
+        mochila01 = asignarbolsas("_3");
+        mochila01 = asignarsierre("_2");
+        System.out.println(mochila01.obtenerMarca());
+        System.out.println(mochila01.obtenercapacidad());
+        System.out.println(mochila01.obtenercolor());
+        System.out.println(mochila01.obtenerresistencia());
+        System.out.println(mochila01.obtenerbolsas());
+        System.out.println(mochila01.obtenersierre());
+        //metodos 
     }
+
 }
+
 
